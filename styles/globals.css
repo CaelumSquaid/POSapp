@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  button[type="submit"] {
+    @apply bg-indigo-700 text-white font-semibold w-full rounded py-2 hover:bg-indigo-800;
+  }
+}
